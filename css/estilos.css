@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;500&family=Titillium+Web:wght@200&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-align: center;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+nav {
+    background-color: #196F3D;
+    padding: 1em 0em 1em 0em;
+    border: 0em 1em 1em 1em;
+}
+
+picture img {
+    height: 6em;
+}
+
+nav div img {
+    height: 5em;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    background-color: #196F3D;
+    text-decoration: none;
+    color: brown;
+    font-size: 2em;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #F1C40F;
+    border-style: none;
+    border-color: #F1C40F;
+    background-color: #F1C40F;
+}
+
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+    background-color: #196F3D;
+
+}
+
+body {
+    background-color: #2E4053;
+}
+
+h1 {
+    font-size: 4em;
+    color: #F1C40F;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: baseline;
+}
+
+h2 {
+    font-size: 6em;
+    color: #F1C40F;
+}
+
+h3 {
+    font-size: 5em;
+    color: #F1C40F;
+}
+
+h4 {
+    font-size: 4em;
+    color: #F1C40F;
+}
+
+h5 {
+    font-size: 2em;
+    color: #F1C40F;
+}
+
+p {
+    font-size: 2em;
+    color: #F1C40F;
+}
+
+
+#inicio {
+    height: auto;
+    margin-bottom: 10em;
+}
+
+#section1 {
+    background: url(../multimedia/Fotos\ platos/Ike-Milano-Antipasti-copia.jpg) no-repeat center top fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#section2 {
+    height: 50em;
+}
+
+#section3 {
+    min-height: 80em;
+    background: url(../multimedia/Fotos\ bar/el-bar-nicky-harrison-de___0rKHud6D0_1256x620__2.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+
+footer {
+    margin: 0;
+    padding: 0 0 1em 0;
+    background-color: #196F3D;
+}
+
+article button {
+    border-radius: 5em;
+    font-size: 3em;
+    background-color: transparent;
+}
+
+
+#lista {
+    font-size: 2em;
+    color: #F1C40F;
+}
+
+.button122 {
+    border: solid;
+    border-radius: 5em;
+    font-size: 4em;
+    font: bold;
+    margin: 2em;
+    text-align: center;
+}
+
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid;
+    border-radius: 5em;
+    border-color: red;
+    margin: 2em;
+    padding: 1em;
+    background-color: #2E4053;
+    width: 80em;
+}
+
+.papita {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.carrito {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid;
+    border-radius: 5em;
+    border-color: red;
+    margin: 2em;
+    padding: 1em;
+    background-color: #2E4053;
+    width: 100%;
+}
+
+#asd {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#asd2 {
+    margin-top: 5em;
+}
+
+.button11 {
+    margin-top: 2em;
+}
